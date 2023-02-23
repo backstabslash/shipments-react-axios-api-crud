@@ -1,110 +1,102 @@
-.wrapper {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-}
-
 .headerWrapper {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
-    border-bottom: 4px solid #476072;
-    background-color: #20262E;
-    padding: 10px 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  border-bottom: 4px solid #476072;
+  background-color: #20262e;
+  padding: 10px 10px 10px 10px;
 }
 
 .titleDiv {
-    cursor: default;
-    width: 100%;
-    font-family: "Lora";
-    font-size: 32px;
-    color: #476072;
-    font-weight: 700;
-    text-align: center;
+  cursor: default;
+  font-family: "Lora";
+  font-size: 32px;
+  color: #476072;
+  font-weight: 700;
+  text-align: center;
 }
 
 .app--table {
-    font-family: "Lora";
-    border-collapse: collapse;
-    background-color: #F4F4F2;
-    text-align: left;
-    overflow: hidden;
+  font-family: "Lora";
+  border-collapse: collapse;
+  background-color: #f4f4f2;
+  text-align: left;
+  width: 100%;
+  overflow: hidden;
 }
 
 .app--thead {
-    color: #495464;
-    background-color: #BBBFCA;
+  color: #495464;
+  background-color: #bbbfca;
 }
 
 .app--tr {
-    display: table-row;
-    border-bottom: 1px solid #BBBFCA;
+  display: table-row;
+  border-bottom: 1px solid #bbbfca;
 }
 
 .app--th {
-    padding: 1rem 2rem;
-    text-transform: uppercase;
-    font-size: 16px;
-    letter-spacing: 0.1rem;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  font-size: 16px;
+  letter-spacing: 0.1rem;
 }
 
 .app--th-date {
-    font-size: 16px;
-    padding: 1rem 2rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    text-decoration: underline;
-    cursor: pointer;
-    user-select: none;
+  font-size: 16px;
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-decoration: underline;
+  cursor: pointer;
+  user-select: none;
 }
 
 .app--td {
-    color: #495464;
-    padding: 1rem 2rem;
+  color: #495464;
+  padding: 1rem 2rem;
 }
 
 .app--td-buttton {
-    width: 2%;
+  width: 2%;
 }
 
 .app--tbody {
-    display: table-row-group;
-    vertical-align: middle;
+  display: table-row-group;
+  vertical-align: middle;
 }
 
 tr:nth-child(even) {
-    background-color: #E8E8E8;
+  background-color: #e8e8e8;
 }
 
 .app--button-ship {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 2rem;
-    color: #20262E;
-    background-color: #39A2DB;
-    border-color: #39A2DB;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: #20262e;
+  background-color: #39a2db;
+  border-color: #39a2db;
 }
 
 .app--button-delete {
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem 2rem;
-    color: #20262E;
-    background-color: #DA0037;
-    border-color: #DA0037;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: #20262e;
+  background-color: #da0037;
+  border-color: #da0037;
 }
 
-
 .app--button-delete:hover {
-    box-shadow: 0 0 4px 0px #DA0037;
+  box-shadow: 0 0 4px 0px #da0037;
 }
 
 .app--button-ship:hover {
-    box-shadow: 0 0 4px 0px #39A2DB;
+  box-shadow: 0 0 4px 0px #39a2db;
 }
